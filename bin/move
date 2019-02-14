@@ -9,5 +9,6 @@ puts  "Welcome to Tic Tac Toe!"
 puts "Enter a number between 1-9:"
 user_input = gets.strip
 binding.pry
+input_to_index(index)
 move(board, index)
 display_board
