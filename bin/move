@@ -6,7 +6,7 @@ require 'pry'
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 puts  "Welcome to Tic Tac Toe!"
 #display_board(board)
-while board.emty?
+while board.empty?
 puts "Enter a number between 1-9:"
 user_input = gets.strip
 #binding.pry
