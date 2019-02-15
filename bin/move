@@ -12,7 +12,4 @@ while !board.empty?
   index = input_to_index(user_input)
   move(board, index)
   display_board(board)
-  if board.all?
-    break
-  end
 end
